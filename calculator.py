@@ -18,5 +18,19 @@ def divide(a, b):
 def power(a, b):
     """
     Возвращает a в степени b.
+
+    Args:
+        a (int/float): Основание степени
+        b (int/float): Показатель степени
+
+    Returns:
+        int/float: Результат возведения в степень
+
+    Raises:
+        TypeError: Если аргументы не числа
     """
+    # Проверка типов
+    if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
+        raise TypeError("Оба аргумента должны быть числами")
+    
     return a ** b
