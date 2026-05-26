@@ -1,6 +1,10 @@
+import logging 
+
 def add(a, b):
-    """Возвращает сумму двух чисел."""
-    return a + b
+    """Возвращает сумму двух чисел с логированием."""
+    result = a + b
+    logging.info(f"Вычислена сумма {a} + {b} = {result}")
+    return result
 
 def subtract(a, b):
     """Возвращает разность двух чисел."""
