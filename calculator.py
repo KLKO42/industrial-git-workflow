@@ -1,6 +1,8 @@
 def add(a, b):
     """Возвращает сумму двух чисел."""
-    return a + b
+    result = a + b
+    print(f"Сумма {a} + {b} = {result}")
+    return result
 
 def subtract(a, b):
     """Возвращает разность двух чисел."""
