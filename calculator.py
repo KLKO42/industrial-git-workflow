@@ -23,3 +23,7 @@ def power(a, b):
     Возвращает a в степени b.
     """
     return a ** b
+
+def multiply_by_two(x):
+    """Умножает число на 2."""
+    return x * 2
