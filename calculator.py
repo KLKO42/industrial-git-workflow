@@ -1,7 +1,8 @@
+import logging
 def add(a, b):
     """Возвращает сумму двух чисел."""
     result = a + b
-    print(f"Сумма {a} + {b} = {result}")
+    logging.info(f"Сумма {a} + {b} = {result}")
     return result
 
 def subtract(a, b):
